@@ -23,6 +23,10 @@ army_points: 10
 
 Upon landing, stuns all the surrounding enemies for 1.5s.
 
+## How to use ##
+ADs are perfect to bring to the battle with their ability to stun a big area,
+use it as another stormspire stun or use them to keep the first wave off your bandits.
+
 ## Description:
 
 Having high health & armor, massive damage and bonus armor penetration with same attack speed as Seraph, Archdevil is a perfect warrior.
