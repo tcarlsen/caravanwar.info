@@ -11,7 +11,7 @@ Jekyll based website for the mobile game Caravan War.
 
 ## Getting Started
 
-If new to GitHub and want to help adding data or suggest changes please take your time reading this: https://help.github.com/articles/editing-files-in-another-user-s-repository/
+If new to GitHub and want to help adding data or suggest changes please take your time reading [editing files in another user's repository](https://help.github.com/articles/editing-files-in-another-user-s-repository/) and [mastering Markdown](https://guides.github.com/features/mastering-markdown/).
 
 ### Dependencies
 
