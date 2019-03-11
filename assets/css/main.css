@@ -1,3 +1,22 @@
+@font-face {
+  font-family: 'Silk_Road_main';
+  src:
+    url('/assets/fonts/silk_road_main-webfont.woff2') format('woff2'),
+    url('/assets/fonts/silk_road_main-webfont.woff') format('woff'),
+    url('/assets/fonts/Silk_Road_main.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Silk_Road_main", "Roboto", "Helvetica", "Arial", sans-serif;
+}
+
 .cw-color--bone {
   color: #e5d6c1 !important;
 }
