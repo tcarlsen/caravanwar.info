@@ -25,13 +25,16 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # Build settings
 markdown: kramdown
 theme:
+paginate: 5
+paginate_path: "/page:num/"
 plugins:
   - jekyll-feed
+  - jekyll-paginate
 
 collections:
   posts:
     output: true
-    permalink: /article/:title
+    permalink: /article/:year-:month-:day-:title
   bandits:
     output: true
     permalink: /bandit/:name

@@ -1,32 +1,59 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <title>{{ page.title }}</title>
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="/assets/css/normalize.css">
-  <link rel="stylesheet" href="/assets/css/main.css">
-</head>
-<body>
-  <header class="header">
-    <h1>CaravanWar.INFO</h1>
-    <nav class="nav">
-      <li><a href="/">Home</a></li>
-      <li><a href="/guides">Guides</a></li>
-      <li><a href="/challenges">Challenges</a></li>
-      <li><a href="/guild-championship">Guild Championship</a></li>
-      <li><a href="/wiki">Wiki</a></li>
-    </nav>
-  </header>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="msapplication-TileColor" content="#704e47">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="title" content="{{ page.title }}">
+    <meta name="description" content="{{ page.description }}">
 
-  <main class="main">
-    {{ content }}
-  </main>
+    <title>{{ page.title }}</title>
 
-  <footer class="footer">
-    <p><small>© 2018-2019 CaravanWar.info | ALL RIGHTS RESERVED</small></p>
-    <p><small>Caravan War is Copyright Hiker Games 2017-2018 | www.caravanwar.com</small></p>
-  </footer>
-</body>
+    <link rel="canonical" href="https://caravanwar.info">
+    <link rel="icon" type="image/x-icon" href="/assets/fav/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/fav/icon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/fav/icon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/fav/apple-touch-icon.png">
+    <link rel="manifest" href="/assets/fav/manifest.json">
+    <link rel="mask-icon" href="/assets/fav/safari-pinned-tab.svg" color="#704e47">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.grey-orange.min.css">
+    <link rel="stylesheet" href="/assets/css/main.css">
+  </head>
+  <body>
+    <div class="mdl-layout mdl-js-layout">
+      <header class="mdl-layout__header mdl-layout__header--scroll mdl-shadow--8dp">
+        <div class="mdl-layout__header-row">
+          <span class="mdl-layout-title">
+            <a class="mdl-navigation__link" href="/"><img src="/assets/img/caravanwar.info.png" alt=""></a>
+          </span>
+          <div class="mdl-layout-spacer"></div>
+          <nav class="mdl-navigation">
+            <a id="social-facebook" class="social-btn social-btn__facebook" href="https://www.facebook.com/caravanwar.info" target="_blank"></a>
+            <div class="mdl-tooltip" data-mdl-for="social-facebook">CaravanWar.INFO on Facebook</div>
+            <a id="social-youtube" class="social-btn social-btn__youtube" href="https://www.youtube.com/channel/UCANoU4YSdr-8_TSIhKVc-_A" target="_blank"></a>
+            <div class="mdl-tooltip" data-mdl-for="social-youtube">CaravanWar.INFO on Youtube</div>
+            <a id="social-discord" class="social-btn social-btn__discord" href="https://discord.gg/Vbj8tmw" target="_blank"></a>
+            <div class="mdl-tooltip" data-mdl-for="social-discord">Global Discord server</div>
+          </nav>
+        </div>
+      </header>
+      <div class="mdl-layout__drawer">
+        <nav class="mdl-navigation">
+          <a class="mdl-navigation__link" href="/">Home</a>
+          <a class="mdl-navigation__link" href="/guides">Guides</a>
+          <a class="mdl-navigation__link" href="/challenges">Challenges</a>
+          <a class="mdl-navigation__link" href="/guild-championship">Guild Championship</a>
+          <a class="mdl-navigation__link" href="/wiki">Wiki</a>
+        </nav>
+      </div>
+      <main class="mdl-layout__content">
+        {{ content }}
+      </main>
+    </div>
+    <script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+  </body>
 </html>

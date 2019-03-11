@@ -2,9 +2,24 @@
 layout: default
 ---
 
-<h1>{{page.title}}</h1>
-<img src="{{page.image}}" alt="{{page.title}}">
-<p>{{ page.date | date: '%B %d, %Y'  }} - Written by {{ page.author }}</p>
-<div>
-  {{ content }}
+<div class="mdl-grid">
+  <div class="mdl-card mdl-shadow--4dp mdl-cell mdl-cell--12-col">
+    <div class="mdl-card__media">
+      <img class="article__image" src="{{ page.image }}" alt="">
+    </div>
+    <div class="mdl-card__title">
+      <h1 class="mdl-card__title-text article__title">{{ page.title }}</h1>
+    </div>
+    <div class="mdl-card__supporting-text article__meta">
+      {{ page.date | date: '%B %d, %Y'  }} - Written by {{ page.author }}
+    </div>
+    <div class="mdl-card__supporting-text article__content">
+      {{ content }}
+    </div>
+    <div class="mdl-card__actions mdl-card--border article__actions">
+      <a class="mdl-button mdl-button--colored mdl-button--raised" href="https://github.com/tcarlsen/caravanwar.info/edit/master/_posts/{{ page.url | replace:'/article/','' }}.md" target="_blank">
+        Suggest changes to this article
+      </a>
+    </div>
+  </div>
 </div>
