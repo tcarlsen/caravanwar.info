@@ -144,3 +144,15 @@ body {
 .article__actions {
   text-align: right;
 }
+
+.wiki-card {
+  min-height: 0;
+}
+
+.wiki-card img {
+  width: 100%;
+}
+
+.wiki-card a {
+  text-decoration: none;
+}
