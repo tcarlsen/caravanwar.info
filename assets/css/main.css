@@ -156,3 +156,34 @@ body {
 .wiki-card a {
   text-decoration: none;
 }
+
+.card-chip {
+  margin: 0 10px 10px 0;
+}
+
+.card-chip a {
+  color: rgba(0,0,0,.87);
+}
+
+.card-content {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.building-card {
+  min-height: 0;
+}
+
+.building-card a {
+  text-decoration: none;
+}
+
+.building-card .mdl-card__media {
+  text-align: center;
+  background: #e5d6c1;
+  height: 200px;
+}
+
+.building-card img {
+  height: 100%;
+}

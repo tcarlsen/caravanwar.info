@@ -1,6 +1,18 @@
 ---
 layout: default
-title: CaravanWar.INFO
+title: Buildings Wiki
+description: The best buildings wiki for Caravan War.
 ---
 
-<h1>Buildings</h1>
+<div class="mdl-grid">
+  {% for building in site.buildings %}
+    <div class="mdl-card mdl-shadow--4dp mdl-cell mdl-cell--4-col building-card">
+      <div class="mdl-card__media">
+        <img src="{{building.image}}">
+      </div>
+      <div class="mdl-card__title">
+          <h2 class="mdl-card__title-text"><a href="{{building.url}}">{{building.name}} &gt;</a></h2>
+      </div>
+    </div>
+  {% endfor %}
+</div>

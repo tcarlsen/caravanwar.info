@@ -53,6 +53,9 @@ collections:
   trading_spells:
     output: true
     permalink: /trading-spell/:name
+  buildings:
+    output: true
+    permalink: /building/:name
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

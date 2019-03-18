@@ -1,6 +1,68 @@
 ---
 layout: default
-title: CaravanWar.INFO
+title: Cards Wiki
+description: The best card wiki for Caravan War.
 ---
 
-<h1>Cards</h1>
+<div class="mdl-grid">
+  <div class="mdl-card mdl-shadow--4dp mdl-cell mdl-cell--6-col">
+    <div class="mdl-card__title">
+      <h2 class="mdl-card__title-text">Bandits:</h2>
+    </div>
+    <div class="mdl-card__supporting-text card-content">
+      {% for bandit in site.bandits %}
+        <span class="mdl-chip mdl-chip--contact card-chip">
+          <a href="{{bandit.url}}">
+            <img class="mdl-chip__contact" src="{{ bandit.image }}"></img>
+            <span class="mdl-chip__text">{{ bandit.name }}</span>
+          </a>
+        </span>
+      {% endfor %}
+    </div>
+  </div>
+  <div class="mdl-card mdl-shadow--4dp mdl-cell mdl-cell--6-col">
+    <div class="mdl-card__title">
+      <h2 class="mdl-card__title-text">Guardians:</h2>
+    </div>
+    <div class="mdl-card__supporting-text card-content">
+      {% for guardian in site.guardians %}
+        <span class="mdl-chip mdl-chip--contact card-chip">
+          <a href="{{guardian.url}}">
+            <img class="mdl-chip__contact" src="{{ guardian.image }}"></img>
+            <span class="mdl-chip__text">{{ guardian.name }}</span>
+          </a>
+        </span>
+      {% endfor %}
+    </div>
+  </div>
+  <div class="mdl-card mdl-shadow--4dp mdl-cell mdl-cell--6-col">
+    <div class="mdl-card__title">
+      <h2 class="mdl-card__title-text">Vehicles:</h2>
+    </div>
+    <div class="mdl-card__supporting-text card-content">
+      {% for vehicle in site.vehicles %}
+        <span class="mdl-chip mdl-chip--contact card-chip">
+          <a href="{{vehicle.url}}">
+            <img class="mdl-chip__contact" src="{{ vehicle.image }}"></img>
+            <span class="mdl-chip__text">{{ vehicle.name }}</span>
+          </a>
+        </span>
+      {% endfor %}
+    </div>
+  </div>
+  <div class="mdl-card mdl-shadow--4dp mdl-cell mdl-cell--6-col">
+    <div class="mdl-card__title">
+      <h2 class="mdl-card__title-text">Addons:</h2>
+    </div>
+    <div class="mdl-card__supporting-text card-content">
+      {% for addon in site.addons %}
+        <span class="mdl-chip mdl-chip--contact card-chip">
+          <a href="{{addon.url}}">
+            <img class="mdl-chip__contact" src="{{ addon.image }}"></img>
+            <span class="mdl-chip__text">{{ addon.name }}</span>
+          </a>
+        </span>
+      {% endfor %}
+    </div>
+  </div>
+</div>
