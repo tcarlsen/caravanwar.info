@@ -17,6 +17,10 @@ h5 {
   font-family: "Silk_Road_main", "Roboto", "Helvetica", "Arial", sans-serif;
 }
 
+table {
+  width: 100%;
+}
+
 .cw-color--bone {
   color: #e5d6c1 !important;
 }
@@ -186,4 +190,35 @@ body {
 
 .building-card img {
   height: 100%;
+}
+
+#zoomed-img {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  z-index: 1;
+  background: rgba(0, 0, 0, 0.9);
+  text-align: center;
+}
+
+.centerer {
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+
+.center {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.center img {
+  max-width: 90%;
+}
+
+.no-padding {
+  padding: 0;
 }
