@@ -1,6 +1,36 @@
 ---
 layout: default
-title: CaravanWar.INFO
+title: Guild Championship
+description: See the Guild Championship season for season.
 ---
 
-<h1>Guild Championship</h1>
+<div class="mdl-grid">
+  <div class="mdl-card mdl-shadow--4dp mdl-cell mdl-cell--12-col">
+    <div class="mdl-card__title">
+      <h1 class="mdl-card__title-text">Guild Championship:</h1>
+    </div>
+    <div class="mdl-card__supporting-text card-content">
+      {%- for season in site.data.guild-championship reversed -%}
+        <h5>Season {{ season.season }}:</h5>
+        <table class="mdl-data-table mdl-js-data-table">
+          <thead>
+            <tr>
+              <th style="width: 50px;">#</th>
+              <th class="mdl-data-table__cell--non-numeric">Guild</th>
+              <th>Cups</th>
+            </tr>
+          </thead>
+          <tbody>
+            {%- for standing in season.standings -%}
+              <tr>
+                <td>{{ forloop.index }}</td>
+                <td class="mdl-data-table__cell--non-numeric">{{ standing.guild }}</td>
+                <td>{{ standing.cups }}</td>
+              </tr>
+            {%- endfor -%}
+          </tbody>
+        </table>
+      {%- endfor -%}
+    </div>
+  </div>
+</div>
