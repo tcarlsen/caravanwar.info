@@ -5,10 +5,10 @@ image:
 unlocks_at: Headquarters level 4
 ---
 
-## Upgrade Effect:
+# Upgrade Effect
 
 Enable you to upgrade Spells to higher levels.
 
-## Description:
+# Description
 
 The Laboratory lets you manage and upgrade your spells.

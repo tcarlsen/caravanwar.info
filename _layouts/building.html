@@ -1,0 +1,105 @@
+---
+layout: default
+---
+
+{%- assign nameslug = page.name | slugify -%}
+{%- assign buildingData = site.data.buildings[nameslug] -%}
+
+<div class="mdl-grid">
+  <div class="mdl-card mdl-shadow--4dp mdl-cell mdl-cell--12-col">
+    <div class="mdl-card__media card-media ta--center">
+      <img class="m--h-10" src="{{ page.image }}" alt="{{ page.name }}">
+      <h1>{{ page.name }}</h1>
+    </div>
+    <div class="mdl-card__supporting-text article__content">
+      {{ content }}
+
+      <h5>Levels</h5>
+      <table class="mdl-data-table mdl-js-data-table">
+        <thead>
+          <tr>
+            <th style="width: 50px;">lvl</th>
+
+            {%- if buildingData.upgrades_requirements -%}
+              <th class="mdl-data-table__cell--non-numeric">Upgrade Requirements</th>
+            {%- endif -%}
+
+            {%- if buildingData.production -%}
+              <th>Production</th>
+            {%- endif -%}
+
+            {%- if buildingData.army_size -%}
+              <th>Army Size</th>
+            {%- endif -%}
+
+            {%- if buildingData.capacity -%}
+              <th>Capacity</th>
+            {%- endif -%}
+
+            {%- if buildingData.energy -%}
+              <th>Energy</th>
+            {%- endif -%}
+
+            <th>Cost</th>
+          </tr>
+        </thead>
+        <tbody>
+          {%- for upgrade in buildingData.upgrades -%}
+            {%- assign arrayIndex = forloop.index | minus: 1 -%}
+
+            <tr>
+              <td>{{ forloop.index }}</td>
+
+              {%- if buildingData.upgrades_requirements -%}
+                <td class="mdl-data-table__cell--non-numeric">
+                  {{ buildingData.upgrades_requirements[arrayIndex].buildings | join: ", " }}
+                </td>
+              {%- endif -%}
+
+              {%- if buildingData.production -%}
+                <td>
+                  {{ buildingData.production[arrayIndex] }}
+                </td>
+              {%- endif -%}
+
+              {%- if buildingData.army_size -%}
+                <td>
+                  {{ buildingData.army_size[arrayIndex] }}
+                </td>
+              {%- endif -%}
+
+              {%- if buildingData.capacity -%}
+                <td>
+                  {{ buildingData.capacity[arrayIndex] }}
+                </td>
+              {%- endif -%}
+
+              {%- if buildingData.energy -%}
+                <td>
+                  {{ buildingData.energy[arrayIndex] }}
+                </td>
+              {%- endif -%}
+
+              <td>
+                {%- if upgrade.gold > 0 -%}
+                  {{ upgrade.gold }} gold
+                {%- endif -%}
+                {%- if upgrade.gold > 0 and upgrade.cargo > 0 -%}
+                  &nbsp;&amp;&nbsp;
+                {%- endif -%}
+                {%- if upgrade.cargo > 0 -%}
+                  {{ upgrade.cargo }} cargo
+                {%- endif -%}
+              </td>
+            </tr>
+          {%- endfor -%}
+        </tbody>
+      </table>
+    </div>
+    <div class="mdl-card__actions mdl-card--border article__actions">
+      <a class="mdl-button mdl-button--colored mdl-button--raised" href="https://github.com/tcarlsen/caravanwar.info/edit/master/_buildings/{{ nameslug }}.md" target="_blank">
+        Suggest changes to this wiki page
+      </a>
+    </div>
+  </div>
+</div>

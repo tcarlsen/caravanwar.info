@@ -1,0 +1,1321 @@
+{
+  "headquaters": {
+    "upgrades": [{
+        "gold": 0,
+        "cargo": 0
+      },
+      {
+        "gold": 800,
+        "cargo": 400
+      },
+      {
+        "gold": 4800,
+        "cargo": 1700
+      },
+      {
+        "gold": 27200,
+        "cargo": 11000
+      },
+      {
+        "gold": 81000,
+        "cargo": 33000
+      },
+      {
+        "gold": 267000,
+        "cargo": 107000
+      },
+      {
+        "gold": 670000,
+        "cargo": 267000
+      },
+      {
+        "gold": 1480000,
+        "cargo": 700000
+      },
+      {
+        "gold": 2200000,
+        "cargo": 900000
+      },
+      {
+        "gold": 3190000,
+        "cargo": 1300000
+      },
+      {
+        "gold": 5700000,
+        "cargo": 1500000
+      },
+      {
+        "gold": 10670000,
+        "cargo": 2600000
+      },
+      {
+        "gold": 18660000,
+        "cargo": 4200000
+      },
+      {
+        "gold": 32940000,
+        "cargo": 7200000
+      },
+      {
+        "gold": 56400000,
+        "cargo": 11800000
+      },
+      {
+        "gold": 98000000,
+        "cargo": 20000000
+      },
+      {
+        "gold": 173990000,
+        "cargo": 37200000
+      },
+      {
+        "gold": 310220000,
+        "cargo": 66600000
+      },
+      {
+        "gold": 546510000,
+        "cargo": 117800000
+      },
+      {
+        "gold": 983100000,
+        "cargo": 212300000
+      }
+    ],
+    "upgrades_requirements": [{
+        "buildings": []
+      },
+      {
+        "buildings": [
+          "Bandit Camp",
+          "Academy"
+        ]
+      },
+      {
+        "buildings": [
+          "Tavern",
+          "Garage"
+        ]
+      },
+      {
+        "buildings": [
+          "Workshop",
+          "Weaponsmith"
+        ]
+      },
+      {
+        "buildings": [
+          "Mill",
+          "Academy",
+          "Bandit Camp"
+        ]
+      },
+      {
+        "buildings": [
+          "Transport Station",
+          "Laboratory",
+          "Tavern"
+        ]
+      },
+      {
+        "buildings": [
+          "Bandit Camp",
+          "Mill",
+          "Workshop"
+        ]
+      },
+      {
+        "buildings": [
+          "Workshop",
+          "Transport Station",
+          "Garage"
+        ]
+      },
+      {
+        "buildings": [
+          "Tavern",
+          "Academy",
+          "Weaponsmith"
+        ]
+      },
+      {
+        "buildings": [
+          "Mill",
+          "Weaponsmith",
+          "Bandit Camp"
+        ]
+      },
+      {
+        "buildings": [
+          "Transport Station",
+          "Laboratory",
+          "Tavern"
+        ]
+      },
+      {
+        "buildings": [
+          "Bandit Camp",
+          "Mill",
+          "Workshop"
+        ]
+      },
+      {
+        "buildings": [
+          "Weaponsmith",
+          "Transport Station",
+          "Garage"
+        ]
+      },
+      {
+        "buildings": [
+          "Tavern",
+          "Academy",
+          "Workshop"
+        ]
+      },
+      {
+        "buildings": [
+          "Mill",
+          "Weaponsmith",
+          "Bandit Camp"
+        ]
+      },
+      {
+        "buildings": [
+          "Transport Station",
+          "Laboratory",
+          "Tavern"
+        ]
+      },
+      {
+        "buildings": [
+          "Bandit Camp",
+          "Mill",
+          "Workshop"
+        ]
+      },
+      {
+        "buildings": [
+          "Weaponsmith",
+          "Transport Station",
+          "Garage"
+        ]
+      },
+      {
+        "buildings": [
+          "Tavern",
+          "Academy",
+          "Workshop"
+        ]
+      },
+      {
+        "buildings": [
+          "Tavern",
+          "Academy",
+          "Workshop"
+        ]
+      }
+    ]
+  },
+  "tavern": {
+    "army_size": [
+      40,
+      55,
+      70,
+      85,
+      100,
+      115,
+      130,
+      145,
+      160,
+      175,
+      190,
+      205,
+      220,
+      235,
+      250,
+      270,
+      290,
+      310,
+      330,
+      350
+    ],
+    "upgrades": [{
+        "gold": 0,
+        "cargo": 500
+      },
+      {
+        "gold": 690,
+        "cargo": 0
+      },
+      {
+        "gold": 4600,
+        "cargo": 0
+      },
+      {
+        "gold": 26400,
+        "cargo": 0
+      },
+      {
+        "gold": 79000,
+        "cargo": 0
+      },
+      {
+        "gold": 259000,
+        "cargo": 0
+      },
+      {
+        "gold": 595000,
+        "cargo": 0
+      },
+      {
+        "gold": 1260000,
+        "cargo": 0
+      },
+      {
+        "gold": 1770000,
+        "cargo": 0
+      },
+      {
+        "gold": 2580000,
+        "cargo": 0
+      },
+      {
+        "gold": 5160000,
+        "cargo": 0
+      },
+      {
+        "gold": 9150000,
+        "cargo": 0
+      },
+      {
+        "gold": 16000000,
+        "cargo": 0
+      },
+      {
+        "gold": 28230000,
+        "cargo": 0
+      },
+      {
+        "gold": 48350000,
+        "cargo": 0
+      },
+      {
+        "gold": 84000000,
+        "cargo": 0
+      },
+      {
+        "gold": 149140000,
+        "cargo": 0
+      },
+      {
+        "gold": 265910000,
+        "cargo": 0
+      },
+      {
+        "gold": 468440000,
+        "cargo": 0
+      },
+      {
+        "gold": 842660000,
+        "cargo": 0
+      }
+    ]
+  },
+  "bandit-camp": {
+    "upgrades": [{
+        "gold": 100,
+        "cargo": 0
+      },
+      {
+        "gold": 650,
+        "cargo": 0
+      },
+      {
+        "gold": 4400,
+        "cargo": 0
+      },
+      {
+        "gold": 25700,
+        "cargo": 0
+      },
+      {
+        "gold": 76000,
+        "cargo": 0
+      },
+      {
+        "gold": 259000,
+        "cargo": 0
+      },
+      {
+        "gold": 630000,
+        "cargo": 0
+      },
+      {
+        "gold": 1410000,
+        "cargo": 0
+      },
+      {
+        "gold": 2020000,
+        "cargo": 0
+      },
+      {
+        "gold": 3110000,
+        "cargo": 0
+      },
+      {
+        "gold": 5430000,
+        "cargo": 0
+      },
+      {
+        "gold": 10160000,
+        "cargo": 0
+      },
+      {
+        "gold": 17770000,
+        "cargo": 0
+      },
+      {
+        "gold": 31370000,
+        "cargo": 0
+      },
+      {
+        "gold": 53720000,
+        "cargo": 0
+      },
+      {
+        "gold": 93330000,
+        "cargo": 0
+      },
+      {
+        "gold": 165710000,
+        "cargo": 0
+      },
+      {
+        "gold": 295450000,
+        "cargo": 0
+      },
+      {
+        "gold": 520490000,
+        "cargo": 0
+      },
+      {
+        "gold": 936290000,
+        "cargo": 0
+      }
+    ]
+  },
+  "workshop": {
+    "upgrades": [{
+        "gold": 0,
+        "cargo": 300
+      },
+      {
+        "gold": 610,
+        "cargo": 0
+      },
+      {
+        "gold": 4100,
+        "cargo": 0
+      },
+      {
+        "gold": 23300,
+        "cargo": 0
+      },
+      {
+        "gold": 79000,
+        "cargo": 0
+      },
+      {
+        "gold": 259000,
+        "cargo": 0
+      },
+      {
+        "gold": 630000,
+        "cargo": 0
+      },
+      {
+        "gold": 1410000,
+        "cargo": 0
+      },
+      {
+        "gold": 2080000,
+        "cargo": 0
+      },
+      {
+        "gold": 3190000,
+        "cargo": 0
+      },
+      {
+        "gold": 5160000,
+        "cargo": 0
+      },
+      {
+        "gold": 9660000,
+        "cargo": 0
+      },
+      {
+        "gold": 16880000,
+        "cargo": 0
+      },
+      {
+        "gold": 29800000,
+        "cargo": 0
+      },
+      {
+        "gold": 51030000,
+        "cargo": 0
+      },
+      {
+        "gold": 88670000,
+        "cargo": 0
+      },
+      {
+        "gold": 157420000,
+        "cargo": 0
+      },
+      {
+        "gold": 280680000,
+        "cargo": 0
+      },
+      {
+        "gold": 494470000,
+        "cargo": 0
+      },
+      {
+        "gold": 889470000,
+        "cargo": 0
+      }
+    ],
+    "energy": [
+      450,
+      550,
+      650,
+      750,
+      850,
+      900,
+      950,
+      1000,
+      1050,
+      1100,
+      1150,
+      1200,
+      1250,
+      1300,
+      1350,
+      1450,
+      1550,
+      1650,
+      1750,
+      1850
+    ]
+  },
+  "academy": {
+    "upgrades": [{
+        "gold": 250,
+        "cargo": 0
+      },
+      {
+        "gold": 410,
+        "cargo": 0
+      },
+      {
+        "gold": 2700,
+        "cargo": 0
+      },
+      {
+        "gold": 15500,
+        "cargo": 0
+      },
+      {
+        "gold": 46000,
+        "cargo": 0
+      },
+      {
+        "gold": 153000,
+        "cargo": 0
+      },
+      {
+        "gold": 350000,
+        "cargo": 0
+      },
+      {
+        "gold": 740000,
+        "cargo": 0
+      },
+      {
+        "gold": 1040000,
+        "cargo": 0
+      },
+      {
+        "gold": 1520000,
+        "cargo": 0
+      },
+      {
+        "gold": 3400000,
+        "cargo": 0
+      },
+      {
+        "gold": 6350000,
+        "cargo": 0
+      },
+      {
+        "gold": 11110000,
+        "cargo": 0
+      },
+      {
+        "gold": 19610000,
+        "cargo": 0
+      },
+      {
+        "gold": 33580000,
+        "cargo": 0
+      },
+      {
+        "gold": 58330000,
+        "cargo": 0
+      },
+      {
+        "gold": 103570000,
+        "cargo": 0
+      },
+      {
+        "gold": 184660000,
+        "cargo": 0
+      },
+      {
+        "gold": 325310000,
+        "cargo": 0
+      },
+      {
+        "gold": 585180000,
+        "cargo": 0
+      }
+    ]
+  },
+  "garage": {
+    "upgrades": [{
+        "gold": 0,
+        "cargo": 100
+      },
+      {
+        "gold": 250,
+        "cargo": 100
+      },
+      {
+        "gold": 1600,
+        "cargo": 500
+      },
+      {
+        "gold": 9300,
+        "cargo": 3000
+      },
+      {
+        "gold": 28000,
+        "cargo": 8000
+      },
+      {
+        "gold": 115000,
+        "cargo": 24000
+      },
+      {
+        "gold": 263000,
+        "cargo": 60000
+      },
+      {
+        "gold": 560000,
+        "cargo": 200000
+      },
+      {
+        "gold": 780000,
+        "cargo": 200000
+      },
+      {
+        "gold": 1140000,
+        "cargo": 300000
+      },
+      {
+        "gold": 2450000,
+        "cargo": 400000
+      },
+      {
+        "gold": 4580000,
+        "cargo": 600000
+      },
+      {
+        "gold": 8000000,
+        "cargo": 1000000
+      },
+      {
+        "gold": 14120000,
+        "cargo": 1600000
+      },
+      {
+        "gold": 24180000,
+        "cargo": 2700000
+      },
+      {
+        "gold": 42000000,
+        "cargo": 5400000
+      },
+      {
+        "gold": 74570000,
+        "cargo": 8300000
+      },
+      {
+        "gold": 132960000,
+        "cargo": 14800000
+      },
+      {
+        "gold": 234220000,
+        "cargo": 26200000
+      },
+      {
+        "gold": 421330000,
+        "cargo": 47200000
+      }
+    ]
+  },
+  "mill": {
+    "upgrades": [{
+        "gold": 0,
+        "cargo": 50
+      },
+      {
+        "gold": 510,
+        "cargo": 0
+      },
+      {
+        "gold": 3400,
+        "cargo": 0
+      },
+      {
+        "gold": 19400,
+        "cargo": 0
+      },
+      {
+        "gold": 58000,
+        "cargo": 0
+      },
+      {
+        "gold": 191000,
+        "cargo": 0
+      },
+      {
+        "gold": 437000,
+        "cargo": 0
+      },
+      {
+        "gold": 930000,
+        "cargo": 0
+      },
+      {
+        "gold": 1300000,
+        "cargo": 0
+      },
+      {
+        "gold": 1900000,
+        "cargo": 0
+      },
+      {
+        "gold": 3670000,
+        "cargo": 0
+      },
+      {
+        "gold": 6860000,
+        "cargo": 0
+      },
+      {
+        "gold": 12000000,
+        "cargo": 0
+      },
+      {
+        "gold": 21170000,
+        "cargo": 0
+      },
+      {
+        "gold": 36260000,
+        "cargo": 0
+      },
+      {
+        "gold": 63000000,
+        "cargo": 0
+      },
+      {
+        "gold": 111850000,
+        "cargo": 0
+      },
+      {
+        "gold": 199430000,
+        "cargo": 0
+      },
+      {
+        "gold": 351330000,
+        "cargo": 0
+      },
+      {
+        "gold": 631990000,
+        "cargo": 0
+      }
+    ],
+    "production": [
+      300,
+      525,
+      1500,
+      2250,
+      3750,
+      6000,
+      7500,
+      12000,
+      18000,
+      25500,
+      35000,
+      55000,
+      85000,
+      130000,
+      200000,
+      320000,
+      510000,
+      815000,
+      1280000,
+      2050000
+    ]
+  },
+  "weaponsmith": {
+    "upgrades": [{
+        "gold": 0,
+        "cargo": 0
+      },
+      {
+        "gold": 210,
+        "cargo": 200
+      },
+      {
+        "gold": 1600,
+        "cargo": 700
+      },
+      {
+        "gold": 10900,
+        "cargo": 4000
+      },
+      {
+        "gold": 32000,
+        "cargo": 9000
+      },
+      {
+        "gold": 122000,
+        "cargo": 29000
+      },
+      {
+        "gold": 280000,
+        "cargo": 72000
+      },
+      {
+        "gold": 670000,
+        "cargo": 200000
+      },
+      {
+        "gold": 940000,
+        "cargo": 300000
+      },
+      {
+        "gold": 1370000,
+        "cargo": 400000
+      },
+      {
+        "gold": 2720000,
+        "cargo": 400000
+      },
+      {
+        "gold": 5080000,
+        "cargo": 700000
+      },
+      {
+        "gold": 8890000,
+        "cargo": 1200000
+      },
+      {
+        "gold": 15690000,
+        "cargo": 1900000
+      },
+      {
+        "gold": 26860000,
+        "cargo": 3200000
+      },
+      {
+        "gold": 46670000,
+        "cargo": 7100000
+      },
+      {
+        "gold": 82860000,
+        "cargo": 10000000
+      },
+      {
+        "gold": 147730000,
+        "cargo": 17800000
+      },
+      {
+        "gold": 260250000,
+        "cargo": 31400000
+      },
+      {
+        "gold": 468150000,
+        "cargo": 56600000
+      }
+    ]
+  },
+  "warehouse": {
+    "upgrades": [{
+        "gold": 0,
+        "cargo": 0
+      },
+      {
+        "gold": 510,
+        "cargo": 0
+      },
+      {
+        "gold": 3400,
+        "cargo": 0
+      },
+      {
+        "gold": 23300,
+        "cargo": 0
+      },
+      {
+        "gold": 69000,
+        "cargo": 0
+      },
+      {
+        "gold": 229000,
+        "cargo": 0
+      },
+      {
+        "gold": 525000,
+        "cargo": 0
+      },
+      {
+        "gold": 1110000,
+        "cargo": 0
+      },
+      {
+        "gold": 1560000,
+        "cargo": 0
+      },
+      {
+        "gold": 2280000,
+        "cargo": 0
+      },
+      {
+        "gold": 2900000,
+        "cargo": 0
+      },
+      {
+        "gold": 5300000,
+        "cargo": 0
+      },
+      {
+        "gold": 9300000,
+        "cargo": 0
+      },
+      {
+        "gold": 16500000,
+        "cargo": 0
+      },
+      {
+        "gold": 28200000,
+        "cargo": 0
+      },
+      {
+        "gold": 49000000,
+        "cargo": 0
+      },
+      {
+        "gold": 87000000,
+        "cargo": 0
+      },
+      {
+        "gold": 155100000,
+        "cargo": 0
+      },
+      {
+        "gold": 273300000,
+        "cargo": 0
+      },
+      {
+        "gold": 491600000,
+        "cargo": 0
+      }
+    ],
+    "capacity": [
+      30000,
+      40000,
+      60000,
+      100000,
+      250000,
+      550000,
+      850000,
+      1100000,
+      1400000,
+      1800000,
+      3000000,
+      5000000,
+      8000000,
+      13000000,
+      22000000,
+      40000000,
+      70000000,
+      130000000,
+      250000000,
+      500000000
+    ]
+  },
+  "treasury": {
+    "upgrades": [{
+        "gold": 0,
+        "cargo": 0
+      },
+      {
+        "gold": 0,
+        "cargo": 300
+      },
+      {
+        "gold": 0,
+        "cargo": 1300
+      },
+      {
+        "gold": 0,
+        "cargo": 8000
+      },
+      {
+        "gold": 0,
+        "cargo": 22000
+      },
+      {
+        "gold": 0,
+        "cargo": 83000
+      },
+      {
+        "gold": 0,
+        "cargo": 208000
+      },
+      {
+        "gold": 0,
+        "cargo": 500000
+      },
+      {
+        "gold": 0,
+        "cargo": 700000
+      },
+      {
+        "gold": 0,
+        "cargo": 1000000
+      },
+      {
+        "gold": 1200000,
+        "cargo": 1200000
+      },
+      {
+        "gold": 2300000,
+        "cargo": 2000000
+      },
+      {
+        "gold": 4000000,
+        "cargo": 3300000
+      },
+      {
+        "gold": 7100000,
+        "cargo": 5600000
+      },
+      {
+        "gold": 12100000,
+        "cargo": 9200000
+      },
+      {
+        "gold": 21000000,
+        "cargo": 15600000
+      },
+      {
+        "gold": 37300000,
+        "cargo": 28900000
+      },
+      {
+        "gold": 66500000,
+        "cargo": 51800000
+      },
+      {
+        "gold": 117100000,
+        "cargo": 91600000
+      },
+      {
+        "gold": 210700000,
+        "cargo": 165100000
+      }
+    ],
+    "capacity": [
+      30000,
+      40000,
+      80000,
+      170000,
+      500000,
+      1100000,
+      1800000,
+      2800000,
+      3600000,
+      6000000,
+      11000000,
+      20000000,
+      35000000,
+      60000000,
+      110000000,
+      200000000,
+      350000000,
+      600000000,
+      1100000000,
+      2500000000
+    ]
+  },
+  "laboratory": {
+    "upgrades": [{
+        "gold": 0,
+        "cargo": 0
+      },
+      {
+        "gold": 210,
+        "cargo": 0
+      },
+      {
+        "gold": 1400,
+        "cargo": 0
+      },
+      {
+        "gold": 7800,
+        "cargo": 0
+      },
+      {
+        "gold": 23000,
+        "cargo": 0
+      },
+      {
+        "gold": 77000,
+        "cargo": 0
+      },
+      {
+        "gold": 175000,
+        "cargo": 0
+      },
+      {
+        "gold": 370000,
+        "cargo": 0
+      },
+      {
+        "gold": 520000,
+        "cargo": 0
+      },
+      {
+        "gold": 760000,
+        "cargo": 0
+      },
+      {
+        "gold": 1360000,
+        "cargo": 0
+      },
+      {
+        "gold": 2540000,
+        "cargo": 0
+      },
+      {
+        "gold": 4450000,
+        "cargo": 0
+      },
+      {
+        "gold": 7850000,
+        "cargo": 0
+      },
+      {
+        "gold": 13430000,
+        "cargo": 0
+      },
+      {
+        "gold": 23340000,
+        "cargo": 0
+      },
+      {
+        "gold": 41430000,
+        "cargo": 0
+      },
+      {
+        "gold": 73870000,
+        "cargo": 0
+      },
+      {
+        "gold": 130130000,
+        "cargo": 0
+      },
+      {
+        "gold": 234080000,
+        "cargo": 0
+      }
+    ]
+  },
+  "transport-station": {
+    "upgrades": [{
+        "gold": 0,
+        "cargo": 50
+      },
+      {
+        "gold": 0,
+        "cargo": 500
+      },
+      {
+        "gold": 0,
+        "cargo": 2100
+      },
+      {
+        "gold": 0,
+        "cargo": 13000
+      },
+      {
+        "gold": 0,
+        "cargo": 36000
+      },
+      {
+        "gold": 0,
+        "cargo": 119000
+      },
+      {
+        "gold": 0,
+        "cargo": 297000
+      },
+      {
+        "gold": 0,
+        "cargo": 700000
+      },
+      {
+        "gold": 0,
+        "cargo": 1000000
+      },
+      {
+        "gold": 0,
+        "cargo": 1400000
+      },
+      {
+        "gold": 0,
+        "cargo": 1700000
+      },
+      {
+        "gold": 0,
+        "cargo": 2900000
+      },
+      {
+        "gold": 0,
+        "cargo": 4700000
+      },
+      {
+        "gold": 0,
+        "cargo": 7900000
+      },
+      {
+        "gold": 0,
+        "cargo": 13100000
+      },
+      {
+        "gold": 0,
+        "cargo": 22200000
+      },
+      {
+        "gold": 0,
+        "cargo": 41300000
+      },
+      {
+        "gold": 0,
+        "cargo": 74000000
+      },
+      {
+        "gold": 0,
+        "cargo": 130800000
+      },
+      {
+        "gold": 0,
+        "cargo": 235800000
+      }
+    ],
+    "production": [
+      600,
+      1050,
+      3000,
+      4500,
+      7500,
+      null,
+      15000,
+      24000,
+      36000,
+      null,
+      70000,
+      110000,
+      170000,
+      260000,
+      400000,
+      640000,
+      1020000,
+      1630001
+    ]
+  },
+  "altar": {
+    "upgrades": [{
+        "gold": 0,
+        "cargo": 0
+      },
+      {
+        "gold": 740000,
+        "cargo": 0
+      },
+      {
+        "gold": 1040000,
+        "cargo": 0
+      },
+      {
+        "gold": 1520000,
+        "cargo": 0
+      },
+      {
+        "gold": 1520000,
+        "cargo": 0
+      },
+      {
+        "gold": 2720000,
+        "cargo": 0
+      },
+      {
+        "gold": 5080000,
+        "cargo": 0
+      },
+      {
+        "gold": 8900000,
+        "cargo": 0
+      },
+      {
+        "gold": 15700000,
+        "cargo": 0
+      },
+      {
+        "gold": 26860000,
+        "cargo": 0
+      },
+      {
+        "gold": 46680000,
+        "cargo": 0
+      },
+      {
+        "gold": 82860000,
+        "cargo": 0
+      },
+      {
+        "gold": 147740000,
+        "cargo": 0
+      },
+      {
+        "gold": 260260000,
+        "cargo": 0
+      }
+    ]
+  }
+}
