@@ -1,28 +1,15 @@
 ---
-layout: card
+layout: guardian
 name: Warlock
-rarity: legendary
-avatar:
+rarity: Legendary
 image: https://i.imgur.com/FaAEnZu.png
-health_points: 4400
-damage: 500
-armor: 0
-armor_piercing: 0
-attack_speed: 0.7
-attack_range: 2
-move_speed: 1.2
-target_ground: true
-target_air: true
-flying: false
 ---
 
-## Abilities:
+# Abilities
 
-**Unleash**
+**Unleash:** When his own HP fall below 50%, the Warlock unleashes his energy to stun all the surrounding enemies for 1s. Activate once ther battle.
 
-When his own HP fall below 50%, the Warlock unleashes his energy to stun all the surrounding enemies for 1s. Activate once ther battle.
-
-## Description:
+# Description
 
 This unit’s stats are not that powerful however with the right method, you can implement many unique strategies using Warlock.
 
