@@ -1,22 +1,14 @@
 ---
-layout: card
+layout: vehicle
 name: Steam Van
-rarity: legenday
-avatar: assets/avatars/V_SteamVan.png
+rarity: Legenday
 image: https://i.imgur.com/qN3oUXy.png
-health_points: 4251
-armor: 8
-move_speed: 1.2
-flying: false
-convoy_space: 2x5
 ---
 
-## Abilities:
+# Abilities
 
-**Heavy Armor**
+**Heavy Armor:** 50% of incoming damage us reflected back at the attacker.
 
-50% of incoming damage us reflected back at the attacker.
-
-## Description:
+# Description
 
 An armored vehicle that runs on steam. This unit can have two attachments equipped.

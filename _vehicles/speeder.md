@@ -1,23 +1,15 @@
 ---
-layout: card
+layout: vehicle
 name: Speeder
-rarity: legendary
-avatar:
+rarity: Legendary
 image: https://i.imgur.com/wx9b6Gk.png
-health_points: 3800
-armor: 5
-move_speed: 1.2
-flying: false
-convoy_space: 2x4
 ---
 
-## Abilities:
+# Abilities:
 
-**Boost**
+**Boost:** Boosts the movement speed of itself and every nearby allies by 30%.
 
-Boosts the movement speed of itself and every nearby allies by 30%.
-
-## Description:
+# Description
 
 Before going into details, we will show you its power. Arrange Speeder at the end of wave 3 - wave 5, middle lane and watch.
 
