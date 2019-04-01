@@ -1,23 +1,14 @@
 ---
-layout: card
+layout: addon
 name: Flame
-rarity: epic
-avatar: assets/avatars/A_Flame.png
+rarity: Epic
 image: https://i.imgur.com/Hh9PVyF.png
-damage: 43
-armor_piercing: 0
-attack_speed: 2
-attack_range: 4
-target_ground: true
-target_air: true
 ---
 
-## Abilities:
+# Abilities
 
-**Flamethrower**
+**Flamethrower:** Uses a flamethrower to burn everything in its damage radius.
 
-Uses a flamethrower to burn everything in its damage radius.
-
-## Description:
+# Description
 
 Incinerates anyone and anything that tries steal something from you.

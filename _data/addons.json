@@ -4,6 +4,8 @@
     "armor_piercing": 0,
     "attack_speed": 2,
     "attack_range": 7,
+    "target_ground": true,
+    "target_air": true,
     "levels": [{
       "damage": 8
     }, {
@@ -56,8 +58,11 @@
   },
   "mortar": {
     "damage": 115,
+    "armor_piercing": 0,
     "attack_speed": 0.4,
     "attack_range": 8,
+    "target_ground": true,
+    "target_air": false,
     "levels": [{
       "damage": 17
     }, {
@@ -113,6 +118,8 @@
     "armor_piercing": 0,
     "attack_speed": 0.8,
     "attack_range": 6,
+    "target_ground": false,
+    "target_air": true,
     "levels": [{
       "damage": 12
     }, {
@@ -168,6 +175,8 @@
     "armor_piercing": 0,
     "attack_speed": 2,
     "attack_range": 4,
+    "target_ground": true,
+    "target_air": true,
     "levels": [{
       "damage": 6
     }, {
@@ -223,6 +232,8 @@
     "armor_piercing": 6,
     "attack_speed": 2,
     "attack_range": 7,
+    "target_ground": true,
+    "target_air": true,
     "levels": [{
       "damage": 13
     }, {
@@ -278,6 +289,8 @@
     "armor_piercing": 0,
     "attack_speed": 1,
     "attack_range": 7,
+    "target_ground": true,
+    "target_air": true,
     "levels": [{
       "damage": 22
     }, {
@@ -333,6 +346,8 @@
     "armor_piercing": 7,
     "attack_speed": 0.7,
     "attack_range": 7,
+    "target_ground": true,
+    "target_air": true,
     "levels": [{
       "damage": 96
     }, {
@@ -388,6 +403,8 @@
     "armor_piercing": 3,
     "attack_speed": 2,
     "attack_range": 7,
+    "target_ground": true,
+    "target_air": true,
     "levels": [{
       "damage": 19
     }, {
@@ -443,6 +460,8 @@
     "armor_piercing": 0,
     "attack_speed": 1.2,
     "attack_range": 7,
+    "target_ground": true,
+    "target_air": true,
     "levels": [{
       "damage": 45
     }, {

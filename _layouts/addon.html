@@ -1,0 +1,91 @@
+---
+layout: default
+---
+
+{%- assign nameslug = page.name | slugify -%}
+{%- assign cardData = site.data.addons[nameslug] -%}
+{%- assign level = 1 -%}
+{%- assign levelDamage = cardData.damage -%}
+
+<div class="mdl-grid">
+  <div class="mdl-card mdl-shadow--4dp mdl-cell mdl-cell--12-col">
+    <div class="mdl-card__media card-media ta--center">
+      <img class="m--h-10" src="{{ page.image }}" alt="{{ page.name }}">
+      <h1>{{ page.name }}</h1>
+    </div>
+    <div class="mdl-card__supporting-text article__content">
+      {{ content }}
+
+      <h5>Base stats</h5>
+      <table class="mdl-data-table mdl-js-data-table">
+        <tbody>
+          <tr>
+            <td class="mdl-data-table__cell--non-numeric">Rarity</td>
+            <td>{{ page.rarity }}</td>
+          </tr>
+          <tr>
+            <td class="mdl-data-table__cell--non-numeric">Armor Piercing</td>
+            <td>{{ cardData.armor_piercing }}</td>
+          </tr>
+          <tr>
+            <td class="mdl-data-table__cell--non-numeric">Attack Speed</td>
+            <td>{{ cardData.attack_speed }}</td>
+          </tr>
+          <tr>
+            <td class="mdl-data-table__cell--non-numeric">Attack Range</td>
+            <td>{{ cardData.attack_range }}</td>
+          </tr>
+          <tr>
+            <td class="mdl-data-table__cell--non-numeric">Target Ground</td>
+            <td>
+              {%- if cardData.target_ground -%}
+                <i class="material-icons">check</i>
+              {%- else -%}
+                <i class="material-icons">block</i>
+              {%- endif -%}
+            </td>
+          </tr>
+          <tr>
+            <td class="mdl-data-table__cell--non-numeric">Target Air</td>
+            <td>
+              {%- if cardData.target_air -%}
+                <i class="material-icons">check</i>
+              {%- else -%}
+                <i class="material-icons">block</i>
+              {%- endif -%}
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h5>Level stats</h5>
+      <table class="mdl-data-table mdl-js-data-table">
+        <thead>
+          <tr>
+            <th style="width: 50px;">lvl</th>
+            <th>Damage</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>{{ level }}</td>
+            <td>{{ cardData.damage }}</td>
+          </tr>
+          {%- for lvl in cardData.levels -%}
+            {%- assign level = level | plus:1 -%}
+            {%- assign levelDamage = levelDamage | plus:lvl.damage -%}
+            <tr>
+              <td>{{ level }}</td>
+              <td>{{ levelDamage }}</td>
+            </tr>
+          {%- endfor -%}
+        </tbody>
+      </table>
+    </div>
+    <div class="mdl-card__actions mdl-card--border article__actions">
+      <a class="mdl-button mdl-button--colored mdl-button--raised" href="https://github.com/tcarlsen/caravanwar.info/edit/master/_addons/{{ nameslug }}.md" target="_blank">
+        Suggest changes to this wiki page
+      </a>
+    </div>
+  </div>
+</div>

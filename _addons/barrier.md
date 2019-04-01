@@ -1,24 +1,15 @@
 ---
-layout: card
+layout: addon
 name: Barrier
-rarity: legendary
-avatar:
+rarity: Legendary
 image: https://i.imgur.com/fOxMdxX.png
-damage: 300
-armor_piercing: 0
-attack_speed: 1.2
-attack_range: 7
-target_ground: true
-target_air: true
 ---
 
-## Abilities:
+# Abilities
 
-**Deflect**
+**Deflect:** Grants the vehicle a chance of 30% to deflectany attack. The chance decreases to 15% if the Barrier's level is lower than the attacker
 
-Grants the vehicle a chance of 30% to deflectany attack. The chance decreases to 15% if the Barrier's level is lower than the attacker
-
-## Description:
+# Description
 
 The shields are essential for a solid defense system, and this unit is worth every penny!
 

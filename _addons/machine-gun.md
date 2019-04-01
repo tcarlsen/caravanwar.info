@@ -1,23 +1,14 @@
 ---
-layout: card
+layout: addon
 name: Machine Gun
-rarity: legendary
-avatar: 
+rarity: Legendary
 image: https://i.imgur.com/XXILutm.png
-damage: 125
-armor_piercing: 3
-attack_speed: 2
-attack_range: 7
-target_ground: true
-target_air: true
 ---
 
-## Abilities:
+# Abilities
 
-**Flying Bane**
+**Flying Bane:** Deals +50% damage when attacking airborne targets
 
-Deals +50% damage when attacking airborne targets
-
-## Description:
+# Description
 
 A machine gun with an unparalleled rate of fire, high priority to aerial targets.
