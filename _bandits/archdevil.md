@@ -1,29 +1,20 @@
 ---
-layout: card
+layout: bandit
 name: Archdevil
 rarity: Legendary
-avatar:
 image: https://i.imgur.com/31zYedJ.png
-health_points: 3900
-damage: 500
-armor: 8
-armor_piercing: 4
-attack_speed: 1
-attack_range: 2
-move_speed: 1.9
-target_ground: true
-target_air: true
-flying: false
-army_points: 10
 ---
 
-## Abilities:
+# Abilities
 
-**Slam**
+**Slam:** Upon landing, stuns all the surrounding enemies for 1.5s.
 
-Upon landing, stuns all the surrounding enemies for 1.5s.
+# How to use
 
-## Description:
+Archdevil are perfect to bring to the battle with their ability to stun a big area,
+use it as another stormspire stun or use them to keep the first wave off your bandits.
+
+# Description
 
 Having high health & armor, massive damage and bonus armor penetration with same attack speed as Seraph, Archdevil is a perfect warrior.
 
