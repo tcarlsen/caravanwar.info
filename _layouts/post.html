@@ -1,7 +1,6 @@
 ---
 layout: default
 ---
-
 <div class="mdl-grid">
   <div class="mdl-card mdl-shadow--4dp mdl-cell mdl-cell--12-col">
     <div class="mdl-card__media">
@@ -17,7 +16,7 @@ layout: default
       {{ content }}
     </div>
     <div class="mdl-card__actions mdl-card--border article__actions">
-      <a class="mdl-button mdl-button--colored mdl-button--raised" href="https://github.com/tcarlsen/caravanwar.info/edit/master/_posts/{{ page.url | replace:'/article/','' }}.md" target="_blank">
+      <a class="mdl-button mdl-button--colored mdl-button--raised" href="https://github.com/tcarlsen/caravanwar.info/edit/master/_{{ page.collection }}/{{ page.url | replace:'/article/','' }}.md" target="_blank">
         Suggest changes to this article
       </a>
     </div>
