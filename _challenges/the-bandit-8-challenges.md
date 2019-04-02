@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The Bandit #8 Challenges
+title: The Bandit 8 Challenges
 date: 2018-07-10
 author: Exodon
 image: https://i.imgur.com/9FZXLjhh.png

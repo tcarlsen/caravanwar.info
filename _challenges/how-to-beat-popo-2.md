@@ -4,7 +4,7 @@ title: "How to beat Popo #2"
 date: 2018-09-06
 author: Exodon
 image: https://i.imgur.com/ap09kC5h.jpg
-categories: [boss]
+categories: [boss, popo2]
 ---
 
 Let’s take a look on this weeks Boss, Popo #2 and see how to beat him.

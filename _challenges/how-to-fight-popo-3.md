@@ -4,7 +4,7 @@ title: "How to fight Popo #3"
 date: 2018-09-12
 author: Exodon
 image: https://i.imgur.com/wr1SjGAh.jpg
-categories: [boss]
+categories: [boss, popo3]
 ---
 
 Let’s take a look at this weeks Boss, Popo#3, and see how to beat him. For me, this has been the easiest one so far.

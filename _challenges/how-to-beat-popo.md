@@ -4,7 +4,7 @@ title: How to beat Popo
 date: 2018-08-31
 author: Exodon
 image: https://i.imgur.com/mCDRzJRh.jpg
-categories: [boss]
+categories: [boss, popo1]
 ---
 
 Yesterday we saw the very first Boss in the new challenge mode Boss Fight! His, her, I'm not sure... Its name is Popo and is a slime!
