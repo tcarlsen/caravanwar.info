@@ -35,6 +35,9 @@ collections:
   posts:
     output: true
     permalink: /article/:year-:month-:day-:title
+  challenges:
+    output: true
+    permalink: /article/:title
   bandits:
     output: true
     permalink: /bandit/:name
