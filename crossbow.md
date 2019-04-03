@@ -9,7 +9,7 @@ image:
 
 Rain of Arrows
 
-**ability** Fires 2 arrows several times at the enemy units.
+Fires 2 arrows several times at the enemy units.
 
 #description 
 
