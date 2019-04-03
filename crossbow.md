@@ -7,8 +7,6 @@ target: air & ground
 image: 
 ---
 
-# Abilities
-
 Rain of Arrows
 
 **ability** Fires 2 arrows several times at the enemy units.
