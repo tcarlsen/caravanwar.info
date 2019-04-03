@@ -9,9 +9,7 @@ image:
 
 #abilities
 
-Pinning shot
-
-Pin the target in place for 5s.
+Pinning shot: Pin the target in place for 5s.
 
 # Description
 
