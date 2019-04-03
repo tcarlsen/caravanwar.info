@@ -1,6 +1,6 @@
 ---
 layout: building
-name: Headquaters
+name: Headquarters
 image: https://i.imgur.com/Mx0aSaY.png
 unlocks_at:
 ---
