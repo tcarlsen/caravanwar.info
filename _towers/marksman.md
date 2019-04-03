@@ -7,9 +7,7 @@ target: air & ground
 image: 
 ---
 
-Marksmanship
-
-30% chance to land a critical hit, dealing 200% damage.
+Marksmanship: 30% chance to land a critical hit, dealing 200% damage.
 
 # Description
 
