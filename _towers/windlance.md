@@ -7,6 +7,8 @@ target: air & ground
 image: 
 ---
 
+#abilities
+
 Pinning shot
 
 Pin the target in place for 5s.
