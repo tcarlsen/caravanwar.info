@@ -9,7 +9,7 @@ image:
 
 Pinning shot
 
-**ability** Pin the target in place for 5s.
+Pin the target in place for 5s.
 
 # Description
 
