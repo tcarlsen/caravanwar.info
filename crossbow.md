@@ -7,9 +7,7 @@ target: air & ground
 image: 
 ---
 
-Rain of Arrows
-
-Fires 2 arrows several times at the enemy units.
+Rain of Arrows: Fires 2 arrows several times at the enemy units.
 
 #description 
 
