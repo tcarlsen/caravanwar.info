@@ -241,3 +241,8 @@ body {
   right: 40px;
   color: #fff;
 }
+
+.is-small-screen .card-media h1 {
+  font-size: 40px;
+  bottom: -35px;
+}
