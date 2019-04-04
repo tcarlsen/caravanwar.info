@@ -2,9 +2,9 @@
 layout: tower
 name: Garrison
 rarity: Epic
-type: Hospital
+type: hospital
 target: air & ground
-image: 
+image:
 ---
 
 # Abilities
