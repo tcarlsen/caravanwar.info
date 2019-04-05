@@ -8,7 +8,9 @@ layout: default
 <div class="mdl-grid">
   <div class="mdl-card mdl-shadow--4dp mdl-cell mdl-cell--12-col">
     <div class="mdl-card__media card-media ta--center">
-      <img class="m--h-10" src="{{ page.image }}" alt="{{ page.name }}">
+      {%- if page.image != "/assets/img/ogimage.jpg" -%}
+        <img class="m--h-10" src="{{ page.image }}" alt="{{ page.name }}">
+      {%- endif -%}
       <h1>{{ page.name }}</h1>
     </div>
     <div class="mdl-card__supporting-text article__content">

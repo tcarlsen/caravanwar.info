@@ -8,7 +8,9 @@ description: The best buildings wiki for Caravan War.
   {% for building in site.buildings %}
     <div class="mdl-card mdl-shadow--4dp mdl-cell mdl-cell--4-col building-card">
       <div class="mdl-card__media">
-        <img src="{{building.image}}">
+        {%- if building.image != "/assets/img/ogimage.jpg" -%}
+          <img src="{{building.image}}">
+        {%- endif -%}
       </div>
       <div class="mdl-card__title">
           <h2 class="mdl-card__title-text"><a href="{{building.url}}">{{building.name}} &gt;</a></h2>
