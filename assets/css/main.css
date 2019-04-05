@@ -73,6 +73,10 @@ body {
   background-image: url(/assets/img/discord.png);
 }
 
+.social-btn__github {
+  background-image: url(/assets/img/github.png);
+}
+
 .mdl-grid {
   max-width: 920px;
 }
