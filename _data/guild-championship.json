@@ -3,305 +3,485 @@
   "facebook_post": "https://www.facebook.com/caravanwar/photos/a.752999868220951.1073741828.725752127612392/862872850566985/",
   "standings": [{
     "guild": "French Touch",
-    "cups": 130131
+    "cups": 130131,
+    "deference": null,
+    "change": "new"
   }, {
     "guild": "Caravan War Vietnam",
-    "cups": 127733
+    "cups": 127733,
+    "deference": null,
+    "change": "new"
   }, {
     "guild": "For The Win",
-    "cups": 118871
+    "cups": 118871,
+    "deference": null,
+    "change": "new"
   }, {
     "guild": "Vietnam GR",
-    "cups": 99468
+    "cups": 99468,
+    "deference": null,
+    "change": "new"
   }, {
     "guild": "Alliance",
-    "cups": 99432
+    "cups": 99432,
+    "deference": null,
+    "change": "new"
   }, {
     "guild": "[War]Lords",
-    "cups": 81517
+    "cups": 81517,
+    "deference": null,
+    "change": "new"
   }, {
     "guild": "Mini Raiders",
-    "cups": 73398
+    "cups": 73398,
+    "deference": null,
+    "change": "new"
   }, {
     "guild": "(Sài Gòn)",
-    "cups": 72188
+    "cups": 72188,
+    "deference": null,
+    "change": "new"
   }, {
     "guild": "Россия Великая",
-    "cups": 71854
+    "cups": 71854,
+    "deference": null,
+    "change": "new"
   }, {
     "guild": "Ü30 Halunken",
-    "cups": 69176
+    "cups": 69176,
+    "deference": null,
+    "change": "new"
   }]
 }, {
   "season": 2,
   "facebook_post": "https://www.facebook.com/caravanwar/photos/a.752999868220951.1073741828.725752127612392/880186268835643/",
   "standings": [{
     "guild": "French Touch",
-    "cups": 201671
+    "cups": 201671,
+    "deference": 71540,
+    "change": "same"
   }, {
     "guild": "For The Win",
-    "cups": 176312
+    "cups": 176312,
+    "deference": 57441,
+    "change": "up"
   }, {
     "guild": "(Sài Gòn)",
-    "cups": 174579
+    "cups": 174579,
+    "deference": 102391,
+    "change": "up"
   }, {
     "guild": "Vietnam GR",
-    "cups": 169044
+    "cups": 169044,
+    "deference": 69576,
+    "change": "same"
   }, {
     "guild": "Alliance",
-    "cups": 154256
+    "cups": 154256,
+    "deference": 54824,
+    "change": "same"
   }, {
     "guild": "Россия Великая",
-    "cups": 128067
+    "cups": 128067,
+    "deference": 56213,
+    "change": "up"
   }, {
     "guild": "Krauts©",
-    "cups": 127022
+    "cups": 127022,
+    "deference": null,
+    "change": "new"
   }, {
     "guild": "Pinoy Pride",
-    "cups": 125063
+    "cups": 125063,
+    "deference": null,
+    "change": "new"
   }, {
     "guild": "Caravan War Vietnam",
-    "cups": 123564
+    "cups": 123564,
+    "deference": -4169,
+    "change": "down"
   }, {
     "guild": "Les indignés",
-    "cups": 114502
+    "cups": 114502,
+    "deference": null,
+    "change": "new"
   }]
 }, {
   "season": 3,
   "facebook_post": "https://www.facebook.com/caravanwar/photos/a.752999868220951.1073741828.725752127612392/896832960504307",
   "standings": [{
     "guild": "French Touch",
-    "cups": 256182
+    "cups": 256182,
+    "deference": 54511,
+    "change": "same"
   }, {
     "guild": "(Sài Gòn)",
-    "cups": 240848
+    "cups": 240848,
+    "deference": 66269,
+    "change": "up"
   }, {
     "guild": "For The Win",
-    "cups": 229651
+    "cups": 229651,
+    "deference": 53339,
+    "change": "down"
   }, {
     "guild": "Vietnam GR",
-    "cups": 211108
+    "cups": 211108,
+    "deference": 42064,
+    "change": "same"
   }, {
     "guild": "Alliance",
-    "cups": 172386
+    "cups": 172386,
+    "deference": 18130,
+    "change": "same"
   }, {
     "guild": "Pinoy Pride",
-    "cups": 169877
+    "cups": 169877,
+    "deference": 44814,
+    "change": "up"
   }, {
     "guild": "Krauts©",
-    "cups": 169233
+    "cups": 169233,
+    "deference": 42211,
+    "change": "same"
   }, {
     "guild": "Caravan War Vietnam",
-    "cups": 147348
+    "cups": 147348,
+    "deference": 23784,
+    "change": "up"
   }, {
     "guild": "悬崖不勒马",
-    "cups": 140515
+    "cups": 140515,
+    "deference": null,
+    "change": "new"
   }, {
     "guild": "Патриархат",
-    "cups": 139405
+    "cups": 139405,
+    "deference": null,
+    "change": "new"
   }]
 }, {
   "season": 4,
   "facebook_post": "https://www.facebook.com/caravanwar/photos/a.752999868220951.1073741828.725752127612392/921014584752811",
   "standings": [{
     "guild": "XxxxxLEGIONxxxxX",
-    "cups": 338235
+    "cups": 338235,
+    "deference": null,
+    "change": "new"
   }, {
     "guild": "(Sài Gòn)",
-    "cups": 329946
+    "cups": 329946,
+    "deference": 89098,
+    "change": "same"
   }, {
     "guild": "Vietnam GR",
-    "cups": 247026
+    "cups": 247026,
+    "deference": 35918,
+    "change": "up"
   }, {
     "guild": "Krauts©",
-    "cups": 214999
+    "cups": 214999,
+    "deference": 45766,
+    "change": "up"
   }, {
     "guild": "Alliance",
-    "cups": 211289
+    "cups": 211289,
+    "deference": 38903,
+    "change": "same"
   }, {
     "guild": "Pinoy Pride",
-    "cups": 204349
+    "cups": 204349,
+    "deference": 34472,
+    "change": "same"
   }, {
     "guild": "Les Manouches",
-    "cups": 187767
+    "cups": 187767,
+    "deference": null,
+    "change": "new"
   }, {
     "guild": "悬崖不勒马",
-    "cups": 187479
+    "cups": 187479,
+    "deference": 46964,
+    "change": "up"
   }, {
     "guild": "Патриархат",
-    "cups": 183591
+    "cups": 183591,
+    "deference": 44186,
+    "change": "up"
   }, {
     "guild": "HŐNG BÀNG",
-    "cups": 165261
+    "cups": 165261,
+    "deference": null,
+    "change": "new"
   }]
 }, {
   "season": 5,
   "facebook_post": "https://www.facebook.com/caravanwar/photos/a.752999868220951.1073741828.725752127612392/953872681467001",
   "standings": [{
     "guild": "(Sài Gòn)",
-    "cups": 423444
+    "cups": 423444,
+    "deference": 93498,
+    "change": "up"
   }, {
     "guild": "XxxxxLEGIONxxxxX",
-    "cups": 422409
+    "cups": 422409,
+    "deference": 84174,
+    "change": "down"
   }, {
     "guild": "Vietnam GR",
-    "cups": 282411
+    "cups": 282411,
+    "deference": 35385,
+    "change": "same"
   }, {
     "guild": "Krauts©",
-    "cups": 241614
+    "cups": 241614,
+    "deference": 26615,
+    "change": "same"
   }, {
     "guild": "Les Manouches",
-    "cups": 238180
+    "cups": 238180,
+    "deference": 50413,
+    "change": "up"
   }, {
     "guild": "Alliance",
-    "cups": 233151
+    "cups": 233151,
+    "deference": 21862,
+    "change": "down"
   }, {
     "guild": "悬崖不勒马",
-    "cups": 221596
+    "cups": 221596,
+    "deference": 34117,
+    "change": "up"
   }, {
     "guild": "The New Era",
-    "cups": 206664
+    "cups": 206664,
+    "deference": null,
+    "change": "new"
   }, {
     "guild": "Patriotes",
-    "cups": 201375
+    "cups": 201375,
+    "deference": null,
+    "change": "new"
   }, {
     "guild": "Нас Рать!!!",
-    "cups": 197004
+    "cups": 197004,
+    "deference": null,
+    "change": "new"
   }]
 }, {
   "season": 7,
   "facebook_post": "https://www.facebook.com/caravanwar/photos/a.752999868220951/1008857829301819/?type=3&theater",
   "standings": [{
     "guild": "(Sài Gòn)",
-    "cups": 564571
+    "cups": 564571,
+    "deference": 141127,
+    "change": "same"
   }, {
     "guild": "XxxxxLEGIONxxxxX",
-    "cups": 406553
+    "cups": 406553,
+    "deference": -15856,
+    "change": "same"
   }, {
     "guild": "Vietnam GR",
-    "cups": 360908
+    "cups": 360908,
+    "deference": 78497,
+    "change": "same"
   }, {
     "guild": "The New Era",
-    "cups": 335744
+    "cups": 335744,
+    "deference": 129080,
+    "change": "up"
   }, {
     "guild": "Les Manouches",
-    "cups": 304671
+    "cups": 304671,
+    "deference": 66491,
+    "change": "same"
   }, {
     "guild": "Û30 Halunken",
-    "cups": 297284
+    "cups": 297284,
+    "deference": null,
+    "change": "new"
   }, {
     "guild": "°ʚ浅笑而安ɞ°",
-    "cups": 291063
+    "cups": 291063,
+    "deference": null,
+    "change": "new"
   }, {
     "guild": "Нас Рать!!!",
-    "cups": 294622
+    "cups": 294622,
+    "deference": 97618,
+    "change": "up"
   }, {
     "guild": "La résistance",
-    "cups": 277184
+    "cups": 277184,
+    "deference": null,
+    "change": "new"
   }, {
     "guild": "Nur kurz rein Dippen",
-    "cups": 268222
+    "cups": 268222,
+    "deference": null,
+    "change": "new"
   }]
 }, {
   "season": 8,
   "facebook_post": "https://www.facebook.com/caravanwar/photos/a.752999868220951/1051566688364266/?type=3&theater",
   "standings": [{
     "guild": "(Sài Gòn)",
-    "cups": 664764
+    "cups": 664764,
+    "deference": 100193,
+    "change": "same"
   }, {
     "guild": "XxxxxLEGIONxxxxX",
-    "cups": 577232
+    "cups": 577232,
+    "deference": 170679,
+    "change": "same"
   }, {
     "guild": "Vietnam GR",
-    "cups": 425212
+    "cups": 425212,
+    "deference": 64304,
+    "change": "same"
   }, {
     "guild": "LONG HỐ MÔN",
-    "cups": 418346
+    "cups": 418346,
+    "deference": null,
+    "change": "new"
   }, {
     "guild": "Нас Рать!!!",
-    "cups": 415319
+    "cups": 415319,
+    "deference": 120697,
+    "change": "up"
   }, {
     "guild": "Û30 Halunken",
-    "cups": 410763
+    "cups": 410763,
+    "deference": 113479,
+    "change": "same"
   }, {
     "guild": "The New Era",
-    "cups": 386177
+    "cups": 386177,
+    "deference": 50433,
+    "change": "down"
   }, {
     "guild": "Nur kurz rein Dippen",
-    "cups": 379756
+    "cups": 379756,
+    "deference": 111534,
+    "change": "up"
   }, {
     "guild": "VietNam Glory",
-    "cups": 372916
+    "cups": 372916,
+    "deference": null,
+    "change": "new"
   }, {
     "guild": "[T]hai [G]uardian's™",
-    "cups": 356267
+    "cups": 356267,
+    "deference": null,
+    "change": "new"
   }]
 }, {
   "season": 9,
   "facebook_post": "https://www.facebook.com/caravanwar/photos/a.752999868220951/1070419369812331/?type=3&theater",
   "standings": [{
     "guild": "(Sài Gòn)",
-    "cups": 662536
+    "cups": 662536,
+    "deference": -2228,
+    "change": "same"
   }, {
     "guild": "XxxxxLEGIONxxxxX",
-    "cups": 661372
+    "cups": 661372,
+    "deference": 84140,
+    "change": "same"
   }, {
     "guild": "Û30 Halunken",
-    "cups": 534142
+    "cups": 534142,
+    "deference": 123379,
+    "change": "up"
   }, {
     "guild": "Нас Рать!!!",
-    "cups": 493132
+    "cups": 493132,
+    "deference": 77813,
+    "change": "up"
   }, {
     "guild": "VietNam Glory",
-    "cups": 481581
+    "cups": 481581,
+    "deference": 108665,
+    "change": "up"
   }, {
     "guild": "LONG HỐ MÔN",
-    "cups": 466931
+    "cups": 466931,
+    "deference": 48585,
+    "change": "down"
   }, {
     "guild": "Vietnam GR",
-    "cups": 463876
+    "cups": 463876,
+    "deference": 38664,
+    "change": "down"
   }, {
     "guild": "LA HORDE",
-    "cups": 439535
+    "cups": 439535,
+    "deference": null,
+    "change": "new"
   }, {
     "guild": "The New Era",
-    "cups": 420308
+    "cups": 420308,
+    "deference": 34131,
+    "change": "down"
   }, {
     "guild": "Phoenix",
-    "cups": 400296
+    "cups": 400296,
+    "deference": null,
+    "change": "new"
   }]
 }, {
   "season": 10,
   "facebook_post": "https://www.facebook.com/caravanwar/photos/a.752999868220951/1090830627771205/?type=3&theater",
   "standings": [{
     "guild": "XxxxxLEGIONxxxxX",
-    "cups": 763121
+    "cups": 763121,
+    "deference": 101749,
+    "change": "up"
   }, {
     "guild": "(Sài Gòn)",
-    "cups": 656600
+    "cups": 656600,
+    "deference": -5936,
+    "change": "down"
   }, {
     "guild": "Phoenix",
-    "cups": 605912
+    "cups": 605912,
+    "deference": 205616,
+    "change": "up"
   }, {
     "guild": "Û30 Halunken",
-    "cups": 605062
+    "cups": 605062,
+    "deference": 70920,
+    "change": "down"
   }, {
     "guild": "Нас Рать!!!",
-    "cups": 546211
+    "cups": 546211,
+    "deference": 53079,
+    "change": "down"
   }, {
     "guild": "VietNam Glory",
-    "cups": 524905
+    "cups": 524905,
+    "deference": 43324,
+    "change": "down"
   }, {
     "guild": "Assault",
-    "cups": 514943
+    "cups": 514943,
+    "deference": null,
+    "change": "new"
   }, {
     "guild": "LONG HỐ MÔN",
-    "cups": 502204
+    "cups": 502204,
+    "deference": 35273,
+    "change": "down"
   }, {
     "guild": "The New Era",
-    "cups": 472903
+    "cups": 472903,
+    "deference": 52595,
+    "change": "same"
   }, {
     "guild": "LA HORDE",
-    "cups": 467773
+    "cups": 467773,
+    "deference": 28238,
+    "change": "down"
   }]
 }]

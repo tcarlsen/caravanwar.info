@@ -16,7 +16,9 @@ description: See the Guild Championship season for season.
           <thead>
             <tr>
               <th style="width: 50px;">#</th>
+              <th class="hide-on-mobile" style="width: 50px;">&nbsp;</th>
               <th class="mdl-data-table__cell--non-numeric">Guild</th>
+              <th class="hide-on-mobile">Cup Deference</th>
               <th>Cups</th>
             </tr>
           </thead>
@@ -24,7 +26,19 @@ description: See the Guild Championship season for season.
             {%- for standing in season.standings -%}
               <tr>
                 <td>{{ forloop.index }}</td>
+                <td class="guild-championship--change-td hide-on-mobile">
+                  {%- if standing.change == 'up' -%}
+                    <i class="material-icons guild-championship--change-up">arrow_drop_up</i>
+                  {%- endif -%}
+                  {%- if standing.change == 'down' -%}
+                    <i class="material-icons guild-championship--change-down">arrow_drop_down</i>
+                  {%- endif -%}
+                  {%- if standing.change == 'same' -%}
+                    <i class="material-icons guild-championship--change-same">fiber_manual_record</i>
+                  {%- endif -%}
+                </td>
                 <td class="mdl-data-table__cell--non-numeric">{{ standing.guild }}</td>
+                <td class="hide-on-mobile">{{ standing.deference }}</td>
                 <td>{{ standing.cups }}</td>
               </tr>
             {%- endfor -%}

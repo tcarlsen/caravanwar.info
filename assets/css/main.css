@@ -252,3 +252,24 @@ body {
   width: 100%;
   overflow-y: scroll;
 }
+
+.guild-championship--change-td {
+  text-align: center !important;
+}
+
+.guild-championship--change-up {
+  color: #2ECC40;
+}
+
+.guild-championship--change-down {
+  color: #FF4136;
+}
+
+.guild-championship--change-same {
+  font-size: 10px;
+  line-height: 24px;
+}
+
+.is-small-screen .hide-on-mobile {
+  display: none;
+}
