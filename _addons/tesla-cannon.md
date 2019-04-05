@@ -12,3 +12,7 @@ image: https://i.imgur.com/3KGgjik.png
 # Description
 
 Shoots energy bolts at enemy units. Deals additional damage to the summoned units.
+
+# Changelog
+
+- July 30 2018: From 3 to 4 targets

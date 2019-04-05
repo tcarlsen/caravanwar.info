@@ -13,3 +13,8 @@ image: /assets/img/towers/hydra.png
 # Description
 
 Artillery with an advanced targeting system, able to shoot anywhere on the map, prioritising the lowest health point enemies.
+
+# Changelog
+
+- July 30 2018: Deploy cost increased from 250 to 300
+- April 4 2019: Deploy cost descrease from 300 to 280

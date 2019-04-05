@@ -12,3 +12,7 @@ image: https://i.imgur.com/G7Z1koQ.png
 # Description
 
 A mechanized missile weapon that launches harpoons that can penetrate armor and stun target.
+
+# Changelog
+
+- July 30 2018: Damage decreaced from 710 to 639
