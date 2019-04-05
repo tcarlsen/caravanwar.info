@@ -74,6 +74,9 @@ collections:
   buildings:
     output: true
     permalink: /building/:name
+  towers:
+    output: true
+    permalink: /tower/:name
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
