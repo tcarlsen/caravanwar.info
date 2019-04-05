@@ -2,14 +2,13 @@
 layout: tower
 name: Lightning
 rarity: Epic
-type: mage tower
-target: air & ground
-image: 
+type: mage
+image: /assets/img/towers/lightning.png
 ---
 
 # Abilities
 
-Chain Lightning: Releases a lightning bolt that jumps from one target to another, dealing 25% les damage with each subsequent hit. Has 15% chance to inflict stun for 0.5 seconds. Strikes up to 3 additional targets.
+**Chain Lightning:** Releases a lightning bolt that jumps from one target to another, dealing 25% les damage with each subsequent hit. Has 15% chance to inflict stun for 0.5 seconds. Strikes up to 3 additional targets.
 
 # Description
 

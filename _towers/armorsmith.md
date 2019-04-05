@@ -3,15 +3,14 @@ layout: tower
 name: Armorsmith
 rarity: Epic
 type: hospital
-target: air & ground
-image: 
+image: /assets/img/towers/armorsmith.png
 ---
 
 # Abilities
 
-Regeneration: Increases the regeneration rate for the nearby troops, allowing them to restore a certain amount of health per second depending on the tower lvl and enhancements.
+**Regeneration:** Increases the regeneration rate for the nearby troops, allowing them to restore a certain amount of health per second depending on the tower lvl and enhancements.
 
-Protection: Grants 5 armor to nearby allied units, effect does not stack.
+**Protection:** Grants 5 armor to nearby allied units, effect does not stack.
 
 # Description
 

@@ -1,10 +1,9 @@
 ---
-layout: tower 
+layout: tower
 name: Ranger tower
 rarity: Rare
 type: ranger
-target: air & ground
-image:
+image: /assets/img/towers/ranger-tower.png
 
 ---
 

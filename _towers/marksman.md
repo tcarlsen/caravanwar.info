@@ -1,13 +1,14 @@
 ---
 layout: tower
 name: Marksman
-rarity: Epic  
+rarity: Epic
 type: ranger
-target: air & ground
-image: 
+image: /assets/img/towers/marksman.png
 ---
 
-Marksmanship: 30% chance to land a critical hit, dealing 200% damage.
+# Abilities
+
+**Marksmanship:** 30% chance to land a critical hit, dealing 200% damage.
 
 # Description
 

@@ -3,13 +3,12 @@ layout: tower
 name: Bombard
 rarity: Rare
 type: bombard
-target: ground
-image: 
+image: /assets/img/towers/bombard.png
 ---
 
 # Abilities
 
-Kill Zone: Deals damage to several enemies in the area.
+**Kill Zone:** Deals damage to several enemies in the area.
 
 # Description
 

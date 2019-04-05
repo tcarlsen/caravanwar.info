@@ -3,15 +3,14 @@ layout: tower
 name: Missle Launcher
 rarity: Epic
 type: bombard
-target: air
-image: 
+image: /assets/img/towers/missle-launcher.png
 ---
 
 # Abilities
 
-Heat-Seeking Missle: Fires a long-range missile at airborne opponents.
+**Heat-Seeking Missle:** Fires a long-range missile at airborne opponents.
 
-Kill Zone: Deals damage to several enemies in the area.
+**Kill Zone:** Deals damage to several enemies in the area.
 
 # Description
 

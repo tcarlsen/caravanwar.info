@@ -3,13 +3,12 @@ layout: tower
 name: Windlance
 rarity: Epic
 type: ranger
-target: air & ground
-image: 
+image: /assets/img/towers/windlance.png
 ---
 
-#abilities
+# Abilities
 
-Pinning shot: Pin the target in place for 5s.
+**Pinning shot:** Pin the target in place for 5s.
 
 # Description
 

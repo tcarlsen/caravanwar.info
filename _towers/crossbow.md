@@ -3,12 +3,13 @@ layout: tower
 name: Crossbow
 rarity: Epic
 type: ranger
-target: air & ground
-image: 
+image: /assets/img/towers/crossbow.png
 ---
 
-Rain of Arrows: Fires 2 arrows several times at the enemy units.
+# Abilities
 
-#description 
+**Rain of Arrows:** Fires 2 arrows several times at the enemy units.
+
+# Description
 
 Equips archers with large crossbows, granting them the ability to hit multiple targets with one shot

@@ -2,9 +2,8 @@
 layout: tower
 name: Mage Tower
 rarity: Rare
-type: mage tower
-target: air & ground
-image: 
+type: mage
+image: /assets/img/towers/mage-tower.png
 ---
 
 # Description

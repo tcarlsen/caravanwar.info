@@ -1,15 +1,14 @@
 ---
 layout: tower
-name: Hydra 
+name: Hydra
 rarity: Epic
 type: bombard
-target: air & ground
-image: 
+image: /assets/img/towers/hydra.png
 ---
 
 # Abilities
 
-Precise Aim: Locks onto targets, allowing artillery to strike anywhere on the map, prioritising the lowest health point enemies.
+**Precise Aim:** Locks onto targets, allowing artillery to strike anywhere on the map, prioritising the lowest health point enemies.
 
 # Description
 
