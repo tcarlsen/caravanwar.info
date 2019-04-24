@@ -15,4 +15,4 @@ A mechanized missile weapon that launches harpoons that can penetrate armor and 
 
 # Changelog
 
-- July 30 2018: Damage decreaced from 710 to 639
+- July 30 2018: Damage decreaced from 710 to 639 [screenshot](https://i.imgur.com/1nflq89.png)
